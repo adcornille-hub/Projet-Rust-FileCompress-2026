@@ -1,0 +1,42 @@
+MAL Compressor - Installation Instructions
+==========================================
+
+QUICK START (Linux/macOS):
+--------------------------
+1. Extract this archive
+2. Open a terminal in this folder
+3. Run: ./compress.sh myfile.txt
+
+QUICK START (Windows):
+----------------------
+1. Extract this archive
+2. Open Command Prompt in this folder
+3. Run: mal.exe compress myfile.txt -o archive.mal
+
+USAGE:
+------
+Compress:
+  ./compress.sh file.txt              (Linux/macOS)
+  mal.exe compress file.txt           (Windows)
+
+Decompress:
+  ./decompress.sh archive.mal         (Linux/macOS)
+  mal.exe decompress archive.mal      (Windows)
+
+List contents:
+  ./mal list archive.mal              (Linux/macOS)
+  mal.exe list archive.mal            (Windows)
+
+Verify integrity:
+  ./verify.sh archive.mal             (Linux/macOS)
+  mal.exe verify archive.mal          (Windows)
+
+For detailed documentation, see README.md
+
+IMPORTANT:
+----------
+- The executable contains ALL dependencies
+- NO installation of Rust required
+- Works completely offline
+- Archives created: compressed/
+- Archives extracted to: decompressed/
